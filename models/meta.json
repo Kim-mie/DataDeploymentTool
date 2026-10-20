@@ -1,0 +1,60 @@
+{
+  "columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "metrics": {
+    "decision_tree": {
+      "accuracy": 0.731,
+      "precision": 0.497,
+      "recall": 0.761,
+      "f1": 0.601,
+      "roc_auc": 0.822
+    },
+    "logistic_regression": {
+      "accuracy": 0.737,
+      "precision": 0.504,
+      "recall": 0.795,
+      "f1": 0.617,
+      "roc_auc": 0.838
+    },
+    "random_forest": {
+      "accuracy": 0.752,
+      "precision": 0.522,
+      "recall": 0.79,
+      "f1": 0.628,
+      "roc_auc": 0.837
+    },
+    "xgboost": {
+      "accuracy": 0.745,
+      "precision": 0.513,
+      "recall": 0.77,
+      "f1": 0.616,
+      "roc_auc": 0.831
+    },
+    "deep_neural_net": {
+      "accuracy": 0.719,
+      "precision": 0.483,
+      "recall": 0.813,
+      "f1": 0.606,
+      "roc_auc": 0.834
+    }
+  }
+}
