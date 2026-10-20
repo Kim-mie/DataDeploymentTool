@@ -1,7 +1,7 @@
- # containing these lines, where the versions come from python -m pip show scikit-learn xgboost:
-   streamlit
-   pandas
-   numpy
-   joblib
-   scikit-learn==<your version>
-   xgboost==<your version>
+# containing these lines, where the versions come from python -m pip show scikit-learn xgboost:
+streamlit
+pandas
+numpy
+joblib
+scikit-learn==1.9.1
+xgboost
